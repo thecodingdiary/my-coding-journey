@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main()
+{
+    int age=18;
+    printf("My name is Sraavya\nMy age is %d.\nI am an IT student\nI am studying in Andhra University located in Visakhapatnam\nVisakhapatnam is also my hometown and studying in AU I believe is a very nice cool easy thing to do cuz it gives a lot of free time to devlop my skill like learning c and HTML and to move along in my hobbies like reading fiction.",age);
+}
