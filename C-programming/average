@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int a[6]={10, 20, 30, 40, 50, 60};
+    int i, sum=0;
+    int avg;
+    for(i=0;i<6;i++)
+        {
+          sum=sum+a[i];
+        }
+    avg=sum/6;
+    printf("AVERAGE=%d",avg);
+    return 0;
+}
+    
