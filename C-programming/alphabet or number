@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf("Enter an alphabet or number:");
+    scanf("%c",&ch);
+        if(ch >= 'A'&& ch <= 'Z' || ch >= 'a' && ch <= 'z')
+    {
+        printf("the given is an aplhabet");
+    }
+       else
+        {
+         printf("the given is an number");
+       }
+    return 0;
+}
